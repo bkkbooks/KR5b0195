@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0195/v1
+canonical_location: https://kanripo.org/bkk/KR5b0195/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 玉籙資度設醮儀
+  identifiers:
+    alt_id:
+    - DZ0501
+  date: '2015-08-29 00:12:27.686592'
+  source:
+    repository: kanripo
+    path: KR5b0195
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0195_000.yaml, hash: 'sha256:f4f7443d838a8866cda1de691715d7e01f172123040c921ddd55e914fd18bc7c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0195_000.markers.yaml, hash: 'sha256:82742d14b3e351625c48b408be9c595ad0fbbffc3686b53945c7f8d3605024f1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0195_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1759
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:21e35d3daf44f32b9572af42da4a843a557db2c613ff48b9c077c0fccbfdcf43
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
